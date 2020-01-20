@@ -1,0 +1,10 @@
+from config.base import *
+
+ENV = 'local'
+
+# DEBUG
+DEBUG = True
+
+BASE_LOCAL_CACHE_HOST = '127.0.0.1'
+BASE_LOCAL_CACHE_PORT = 6379
+BASE_LOCAL_CACHE_DB = 1
